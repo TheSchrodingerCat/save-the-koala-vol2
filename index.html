@@ -46,6 +46,8 @@
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-encabezado">
 					<h2 class="negritas">Save The Koala</h2>
 					<p class="negritas">Koalas are declining in rapid numbers because the trees where they spend a majority of their time are being quickly chopped down. Activists need to take action to try and protect these animals’ habitats so they do not become a thing of the past.</p>
+
+					<!-- acá agregamos tooltip -->
 					<button type="button" class="btn btn-see-more negritas" data-toggle="tooltip" data-placement="button" title="Holi, soy un botón">See more</button>
 				</div>
 			</div>
@@ -91,7 +93,28 @@
 					<h4 class="blanco">EASY HELP</h4>
 					<h3 class="negritas save-koalas">Save Koalas From Possible Extinction!</h3>
 					<p class="blanco">Loss of koala habitat is the major threat facing koalas today. Since white settlement of Australia, roughly 80% of the koala’s habitat has been destroyed and of what remains, most occurs on privately owned land and almost none is protected.</p>
-					<button class="btn btn-read-more negritas blanco">Read more</button>
+					
+					<!-- acá se agrega modal ERROR 400 -->
+					<button type="button" class="btn btn-read-more negritas blanco" data-toggle="modal" data-target="#mymodal">Read more</button>
+
+					<!-- modal -->
+					<div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+									<h4 class="modal-title" id="myModalLabel">ERROR 400</h4>
+								</div>
+								<!-- aca deberia el texto del modal -->
+								<div class="modal-footer">
+									<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
 				</div>
 				<div class="div-right col-lg-6 col-md-6 col-sm-12 col-xs-12 text-left">
 					<div class="white-border">
