@@ -98,7 +98,7 @@
 					<button type="button" class="btn btn-read-more negritas blanco" data-toggle="modal" data-target="#mymodal">Read more</button>
 
 					<!-- modal -->
-					<div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					<div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"> <!-- aria-labelledby es para el título (?) -->
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
 								<div class="modal-header">
@@ -109,7 +109,7 @@
 								</div>
 								<!-- aca deberia el texto del modal -->
 								<div class="modal-footer">
-									<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+									<button type="button" class="btn btn-primary btn-modal negritas" data-dismiss="modal">Close</button>
 								</div>
 							</div>
 						</div>
@@ -208,7 +208,30 @@
 					<p><b>1</b> visits per month</p>
 					<div class="line"></div>
 					<p><b>Public</b>API access</p>
-					<button class="btn btn-donate">DONATE</button>
+
+					<!-- acá se agrega modal con mensaje de donación -->
+
+					<!-- IMPORTANTE -->
+					<!-- data-target debe coincidir con el id del modal -->
+					<button type="button" class="btn btn-donate" data-toggle="modal" data-target="#mymodal2">DONATE</button>
+
+					<!-- modal -->
+					<div class="modal fade" id="mymodal2" tabindex="-1" role="dialog" aria-labelledby="mySecondModalLabel">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<!-- acá debería ir el encabezado, el cual contiene el botón close -->
+								<!-- aca debería ir el título del modal -->
+
+								<div class="modal-body">
+									<p>Tu donación se realizó con éxito.</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-primary btn-modal negritas" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
 				</div>
 				<div class="help-two col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
 					<span><b>GROUPS</b></span>
@@ -220,7 +243,27 @@
 					<p><b>2</b> visits per month</p>
 					<div class="line"></div>
 					<p><b>Public</b>API access</p>
-					<button class="btn btn-donate">DONATE</button>
+
+					<!-- acá se agrega modal con mensaje de donación -->
+					<button type="button" class="btn btn-donate" data-toggle="modal" data-target="#mymodal2">DONATE</button>
+
+					<!-- modal -->
+					<div class="modal fade" id="mymodal2" tabindex="-1" role="dialog" aria-labelledby="mySecondModalLabel">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<!-- acá debería ir el encabezado, el cual contiene el botón close -->
+								<!-- aca debería ir el título del modal -->
+								
+								<div class="modal-body">
+									<p>Tu donación se realizó con éxito.</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-primary btn-modal negritas" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
 				</div>
 				<div class="help-two col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
 					<span><b>COMPANIES</b></span>

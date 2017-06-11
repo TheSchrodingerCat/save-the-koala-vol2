@@ -139,6 +139,7 @@ body{
 	font-size: 11px;
 }
 
+/* slide */
 .slide, .carousel-inner{
 	max-width: 100%;
 	width: 100%;
@@ -183,6 +184,15 @@ sub, .line, .about{
 
 .help-two{
 	padding: 5% 2%;
+}
+
+/* botones de los modal */
+.btn-modal{
+	background: #41521F;
+}
+
+.btn-modal:hover{
+	background: #A89F68;
 }
 
 /*---------------------------------- footer ----------------------------------*/
