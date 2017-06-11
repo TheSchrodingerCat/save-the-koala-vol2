@@ -253,7 +253,7 @@
 							<div class="modal-content">
 								<!-- acá debería ir el encabezado, el cual contiene el botón close -->
 								<!-- aca debería ir el título del modal -->
-								
+
 								<div class="modal-body">
 									<p>Tu donación se realizó con éxito.</p>
 								</div>
@@ -275,7 +275,16 @@
 					<p><b>3</b> visits per month</p>
 					<div class="line"></div>
 					<p><b>Public</b>API access</p>
-					<button class="btn btn-donate">DONATE</button>
+
+					<!-- acá agregamos collapse -->
+					<button type="button" class="btn btn-donate" data-toggle="collapse" data-target="#mycollapse" aria-expanded="false" aria-controls="mycollapse">DONATE</button>
+
+					<!-- collapse -->
+					<div class="collapse" id="mycollapse">
+						<div class="content-colapse">
+							<p>Por el momento no podemos realizar su solicitud.</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

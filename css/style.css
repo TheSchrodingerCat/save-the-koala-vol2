@@ -195,6 +195,16 @@ sub, .line, .about{
 	background: #A89F68;
 }
 
+/* colapse */
+.content-colapse{
+	margin: 10% 0;
+	padding: 5%;
+	background: #41521F;
+	color: white;
+	font-size: 11px;
+	border-radius: 5px;
+}
+
 /*---------------------------------- footer ----------------------------------*/
 footer{
 	background: #41521F;
