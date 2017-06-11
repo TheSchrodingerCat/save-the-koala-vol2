@@ -5,6 +5,7 @@ army green: 41521F;
 
 /*general*/
 *{
+	max-width: 100%;
 	padding: 0;
 	margin: 0;
 }
@@ -136,6 +137,13 @@ body{
 
 .icon-text{
 	font-size: 11px;
+}
+
+.slide, .carousel-inner{
+	max-width: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 /*-----------------------------------------seccion 6 -------------------------------------*/
